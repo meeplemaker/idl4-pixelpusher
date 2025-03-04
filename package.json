@@ -1,16 +1,16 @@
 {
-  "name": "test",
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "node-pixel-pusher": "^1.0.4",
+    "ws": "^8.18.1"
+  },
+  "name": "idl4-pixelpusher",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "PIXELPUSHER",
+  "main": "green.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "canvas": "^2.11.2",
-    "node-pixel-pusher": "^1.0.4",
-    "ws": "^8.16.0"
-  }
+  "license": "ISC"
 }
