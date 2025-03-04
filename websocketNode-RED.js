@@ -1,7 +1,7 @@
 const PixelPusher = require('node-pixel-pusher')
 const nodeCanvas = require('canvas')
 const WebSocket = require('ws');
-const wss = new WebSocket.Server({ port: 7071 });
+const wss = new WebSocket.Server({ port: 7072 });
 
 const service = new PixelPusher.Service()
 
