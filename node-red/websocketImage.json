@@ -1,0 +1,118 @@
+[
+    {
+        "id": "6bc3abca2059e7fa",
+        "type": "tab",
+        "label": "websocketImage+Text",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f0f68389556e8d1c",
+        "type": "websocket out",
+        "z": "6bc3abca2059e7fa",
+        "name": "",
+        "server": "",
+        "client": "b043692490e77d93",
+        "x": 390,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "96e75f9eab2d51e2",
+        "type": "inject",
+        "z": "6bc3abca2059e7fa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Serge",
+        "payloadType": "str",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "f0f68389556e8d1c"
+            ]
+        ]
+    },
+    {
+        "id": "57347ee19999d691",
+        "type": "inject",
+        "z": "6bc3abca2059e7fa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Wim",
+        "payloadType": "str",
+        "x": 130,
+        "y": 120,
+        "wires": [
+            [
+                "f0f68389556e8d1c"
+            ]
+        ]
+    },
+    {
+        "id": "baf887f78c8964f5",
+        "type": "inject",
+        "z": "6bc3abca2059e7fa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Jonas",
+        "payloadType": "str",
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "f0f68389556e8d1c"
+            ]
+        ]
+    },
+    {
+        "id": "b043692490e77d93",
+        "type": "websocket-client",
+        "path": "ws://localhost:7071",
+        "tls": "",
+        "wholemsg": "false",
+        "hb": "0",
+        "subprotocol": "",
+        "headers": []
+    }
+]
